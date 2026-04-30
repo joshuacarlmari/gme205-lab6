@@ -1,4 +1,4 @@
-from spatial object import SpatialObject
+from spatial_object import SpatialObject
 
 class Parcel(SpatialObject):
 
