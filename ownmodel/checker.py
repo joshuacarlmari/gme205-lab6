@@ -30,7 +30,7 @@ class EasementChecker:
 
                     results.append({
                         "parcel_id": parcel.get_id(),
-                        "owner": parcel.owner,  # ✅ ensure owner is included
+                        "owner": parcel.owner,
                         "parcel_area": parcel.area,
                         "overlap_area": overlap_area,
                         "risk": risk,
