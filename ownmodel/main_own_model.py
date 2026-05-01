@@ -28,7 +28,6 @@ def main():
         Polygon([(12,0), (20,0), (20,10), (12,10)])
     ),
 
-    # ✅ THIS ONE WILL DEFINITELY INTERSECT
     Parcel(
         "2933",
         "Pedro Reyes",
