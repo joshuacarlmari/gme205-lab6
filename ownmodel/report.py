@@ -7,7 +7,7 @@ class Report:
 
         for r in self.results:
             print(f"Parcel: {r['parcel_id']}")
-            print(f"Owner: {r['owner']}")  # ✅ now safe, always present
+            print(f"Owner: {r['owner']}")
             print(f"Parcel Area: {r['parcel_area']:.2f}")
             print(f"Overlap Area: {r['overlap_area']:.2f}")
             print(f"Risk Level: {r['risk']}")
